@@ -277,15 +277,7 @@ def send_message(to_user, access_token, city_name, weather, max_temperature, min
                 "color": get_color()
             },
 
-            "sunrise": {
-                "value": sunrise,
-                "color": get_color()
-            },
-
-            "sunset": {
-                "value": sunset,
-                "color": get_color()
-            },
+            
 
             "health": {
                 "value": health_tip,
