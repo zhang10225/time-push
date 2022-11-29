@@ -25,4 +25,4 @@ jobs:
           pip3 install -r requirements.txt
       - name: time-push
         run: |
-          python3 main.py
+          python ./main.py
